@@ -1,8 +1,13 @@
 function Header() {
   return (
     <header>
-      <nav>
-        <img src="./react-logo.png" width="40px" />
+      <nav className="nav-bar">
+        <img src="./react-logo.png" className="nav-bar-logo"/>
+        <ul className="nav-items">
+          <li>Pricing</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
       </nav>
     </header>
   );
@@ -10,7 +15,7 @@ function Header() {
 
 function Footer() {
   return (
-    <footer>
+    <footer className="footer">
       <small>© 2022 Gómez development. All rights reserved.</small>
     </footer>
   );
@@ -18,7 +23,7 @@ function Footer() {
 
 function MainComponent() {
   return (
-    <div>
+    <div className="main">
       <h1>Reasons why I'm exited to be learning React</h1>
       <ol>
         <li>Is one of the most famous technologies.</li>
