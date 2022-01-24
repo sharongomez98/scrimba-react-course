@@ -1,17 +1,4 @@
-function Header() {
-  return (
-    <header>
-      <nav className="nav-bar">
-        <img src="./react-logo.png" className="nav-bar-logo"/>
-        <ul className="nav-items">
-          <li>Pricing</li>
-          <li>About</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
-    </header>
-  );
-}
+// import Header from "./Header.js";
 
 function Footer() {
   return (
@@ -33,6 +20,7 @@ function MainComponent() {
     </div>
   );
 }
+
 
 function Page() {
   return (
